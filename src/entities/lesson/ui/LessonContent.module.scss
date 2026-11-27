@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.2;
+}
+
+.videoWrapper {
+  margin-bottom: 2rem;
+}
+
+.textWrapper {
+  padding: 1rem 0;
+}

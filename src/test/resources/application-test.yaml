@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: ${TEST_DB_URL:jdbc:postgresql://localhost:55432/lms_test}
+    username: ${TEST_DB_USER:postgres}
+    password: ${TEST_DB_PASSWORD:lms_test}
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+
+jwt:
+  secret: isolated-test-secret-key-for-lms-at-least-sixty-four-characters-long
+
+app:
+  cors:
+    allowed-origins: http://localhost:5173,http://localhost:5174

@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/lms}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:password}
+
+jwt:
+  secret: ${JWT_SECRET:"YOUR_SUPER_SECRET_KEY_MUST_BE_LONG_ENOUGH_FOR_HMAC_SHA256"}

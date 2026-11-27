@@ -1,0 +1,1 @@
+export { UserCoursesList } from './ui/UserCoursesList';

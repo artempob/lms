@@ -1,0 +1,1 @@
+export { PurchaseCourseButton } from './ui/PurchaseCourseButton';

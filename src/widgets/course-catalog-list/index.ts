@@ -1,0 +1,1 @@
+export { CourseCatalogList } from './ui/CourseCatalogList';
